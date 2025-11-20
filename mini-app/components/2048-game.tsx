@@ -117,8 +117,8 @@ export default function Game2048() {
         ))}
       </div>
       <div className="flex gap-2">
-        <button onClick={() => handleMove("up")}>↑</button>
         <button onClick={() => handleMove("down")}>↓</button>
+        <button onClick={() => handleMove("up")}>↑</button>
         <button onClick={() => handleMove("left")}>←</button>
         <button onClick={() => handleMove("right")}>→</button>
       </div>
